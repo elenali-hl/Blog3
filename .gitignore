@@ -1,6 +1,21 @@
-.Rproj.user
+# Original microdata
+data-raw/*.csv
+data-raw/*.csv.gz
+data-raw/*.dat
+data-raw/*.dat.gz
+data-raw/*.zip
+
+# Generated person-level data
+data/*.csv
+data/*.csv.gz
+data/*.rds
+data/*.RData
+
+# Local R session files
 .Rhistory
 .RData
 .Ruserdata
-data/
+.Rproj.user/
+
+# macOS files
 .DS_Store
